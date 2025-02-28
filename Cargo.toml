@@ -11,3 +11,7 @@ repository = "https://github.com/Tnze/miband-heart-rate"
 tokio = { version = "1.40.0", features = ["macros", "rt-multi-thread"] }
 bluest = "0.6.6"
 futures-lite = "2.3.0"
+chrono = { version = "0.4", features = ["unstable-locales"] }
+clap = { version = "4.5.31", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.12", features = ["json"] }
